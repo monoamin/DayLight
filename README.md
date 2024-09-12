@@ -1,4 +1,5 @@
 # DayLight by monoamin
-## An extension for HourGlass and SereneSeasons that dynamically adjusts the Day and Night lengths based on the Season.
-### Forge Required (1.20.1_47.2.17)
-### Uses Server Commands, thus compatibility is maximized
+##An addon-mod for HourGlass and SereneSeasons.
+- Dynamically adjusts the day and night duration based on subseason.
+- Compatible with client and server (only the server needs the mod).
+- No config options (: (problem?)
