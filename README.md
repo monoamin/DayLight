@@ -1,5 +1,5 @@
 # DayLight by monoamin
-![Picsart_24-09-15_17-21-06-189](https://github.com/user-attachments/assets/e0d1541a-21f8-4b92-af0e-89182a71500d)
+<img src="https://github.com/user-attachments/assets/e0d1541a-21f8-4b92-af0e-89182a71500d " width="200">
 
 ## An addon for HourGlass and SereneSeasons
 - Dynamically adjusts the day and night lengths based on ingame season
