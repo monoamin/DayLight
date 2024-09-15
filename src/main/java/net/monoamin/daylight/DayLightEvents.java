@@ -25,8 +25,12 @@ public class DayLightEvents {
             int s = ((Season.SubSeason) subSeason).ordinal();
             if (DayLight.DEBUG)
                 LogManager.getLogger().debug("####DAYLIGHT####:  Season changed to {}", s);
-            double r = getDayNightRatio(DayLightConfig.latitude.get(), s);
-            setDayNightSpeed(0+r,2-r);
+
+            double ratio = getDayNightRatio(DayLightConfig.latitude.get(), s);
+            double factor = DayLightConfig.duration_factor.get();
+            double daySpeed = ratio * factor;
+            double nightSpeed = (2-ratio) * factor;
+            setDayNightSpeed(daySpeed,nightSpeed);
         }
     }
 
